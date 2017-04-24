@@ -6,7 +6,7 @@ Entidades
 ---------
 As classes entidades devem implementar a Interface Cloneable não obrigartóriamente, mas isso irá facilitar bastante autilização
 
-```
+```Java
 @Override
     public Object clone() throws CloneNotSupportedException {
         EntidadeTeste cloned = (EntidadeTeste) super.clone();
